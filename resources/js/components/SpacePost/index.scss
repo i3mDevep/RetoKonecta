@@ -1,0 +1,46 @@
+.mytitle {
+    padding-top: 20pt;
+    color: #000000;
+    font-size: 20pt;
+    padding-bottom: 6pt;
+    font-family: "Arial";
+    line-height: 1.15;
+    page-break-after: avoid;
+    orphans: 2;
+    widows: 2;
+    text-align: left;
+    letter-spacing: -1pt;
+    margin-top: 20px;
+    margin: .67em 0;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.section_post {
+    display: block;
+    width: 100%;
+    padding: 3rem 8%;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+.paragrape_post {
+    padding-top: 6pt;
+    padding-bottom: 6pt;
+    line-height: 1.5272727272727273;
+    orphans: 2;
+    widows: 2;
+    text-align: justify;
+}
+.image_post {
+  object-fit: cover;
+  height: 300px;
+}
+@media (max-width: 584px) {
+    .section_post {
+        padding: 0;
+    }
+    .image_post {
+        object-fit: cover;
+        height: 200px;
+      }
+
+}
